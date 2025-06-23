@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="home-style.css">
     <title>עמוד הבית- בורגראנץ' הכי ישראלי</title>
+    <script>$('.carousel').carousel()</script>
 </head>
 <body>
     <div id="main">
@@ -20,12 +24,35 @@
             <span><a>אירועים וימי הולדת</a></span>
             <span><a>זכיינות</a></span>
             <span>צור קשר</span>
-            <span><a href="https://www.facebook.com/burgeranch/"><img src="images/facebook-150x150.webp"></a></span>
+            <span><a href="https://www.facebook.com/burgeranch/"><img width="30px" src="images/facebook-150x150.webp"></a></span>
             <span><a href="https://www.instagram.com/burgeranch/"><img src="images/instagram-150x150.webp"></a></span>
             <span><a href="https://www.youtube.com/channel/UCe1MZdME6PD3df-49IpH6fA/videos"><img src="images/youtube-150x150.webp"></a></span>
-            <span><a href="home-page.html"><img src="images/logo.svg"></a></span>
+            <span><a href="home-page.html"><img src="images/logo.png"></a></span>
         </header>
-        <div> קרוסלה</div>
+       
+        <div id="my-carousel">
+            <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="images/1920_1080.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/finalbg3.webp" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/ranch_bg_chat.webp" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </button>
+        </div>
+        
         <div>הורדת אפליקציה</div>
         <div>הזמנת משלוחים</div>
         <div>תמונות לאינסטגרם</div>
