@@ -1,0 +1,33 @@
+html, body{
+    margin: 0;
+    height: 100%;
+
+}
+
+#main>*{
+    border: 1px solid black;
+}
+
+#main{
+    display: grid;
+    height: auto;
+    grid-template-rows: 2fr, 10fr, 10fr, 7fr, 13fr;
+   
+    
+    
+}
+
+#menu{
+    grid-row: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+     color:#fff;
+    background-color:#32373c;
+}
+
+
+
+
+
